@@ -33,6 +33,6 @@ for i in range(len(components)):
 if (countSuccesses == len(components)):
     print(colored('✔️ All Systems Operational', 'green'))
 elif (countSuccesses > 0):
-    print(colored('❌ Not all operating systems', 'red'))
+    print(colored('❗ Not all operating systems', 'yellow'))
 else:
     print(colored('❌ None of the operating systems', 'red'))
